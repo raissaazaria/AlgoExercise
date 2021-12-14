@@ -32,5 +32,7 @@ class teacher(person):
         self.__numCourse = 0
         self.__course = []
     def addCourse(self,course):
+        if courses not in self.__courses:
+            self.__course.append
         
         
